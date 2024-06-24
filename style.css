@@ -293,7 +293,10 @@ left:-10px;
 .cardLogIn{
     width:100% !important;
 }
-    
+     nav img{
+        width:15%;
+       
+    }
 }
 
 
