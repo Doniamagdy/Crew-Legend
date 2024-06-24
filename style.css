@@ -1,0 +1,294 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Emirates/EmiratesMedium.ttf);
+  }
+  
+
+
+
+*{
+    font-family: myFirstFont;
+
+}
+
+
+
+
+
+
+.form a{
+    color: white;  
+    text-decoration: none;
+}
+
+.form a:hover{
+    color: white;  
+    text-decoration: none;
+}
+
+
+nav{
+    background-color: #333333;
+    color: white;
+    height: 5vh;
+}
+
+nav a{
+    color: white;  
+    text-decoration: none;
+    font-size: 20px;
+}
+
+
+nav a:hover{
+    color: white;  
+    text-decoration: none;
+}
+
+
+
+.header{
+    background-image: url(Slide1.JPG);
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.header-a350{
+    background-image: url(Slide3.JPG);
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.header-a380{
+    background-image: url(Slide2.JPG);
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.header-b777{
+    background-image: url(Slide4.JPG);
+    height: 65vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+#img-one{
+   height:232px;
+}
+
+p{
+    color: #333333;
+}
+
+
+nav img{
+    width:5%;
+    position: absolute;
+    top:0px;
+}
+
+.right{
+    float: right;
+
+}
+
+.carousel img{
+    width:200px;
+}
+
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.245);
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 2s;
+    
+}
+
+.box{
+    width:80px;
+    height:80px;
+    border-radius: 7px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px auto;
+    background-color:#C2B280;
+    
+}
+
+.box span{
+   position: relative;
+   top: 15px;
+}
+
+h3{
+    border-radius: 7px;
+    color: white;
+    padding:20px;
+    background-color:#C2B280;
+}
+
+.brown-btn,
+.brown-btn2,
+.brown-btn3,
+.brown-btn4,
+.brown-btnx,
+.brown-btnx2,
+.brown-btnx3,
+.brown-btny1,
+.brown-btny2,
+.brown-btnz,
+.brown-btnz1,
+.brown-btnz2,
+.brown-btnz3,
+.brown-btnM1,
+.brown-btnM2,
+.brown-btnM3,
+.brown-btnM4,
+.brown-btnM5
+{
+    background-color:#C2B280;
+    border: #C2B280;
+    border-radius: 7px;
+    padding:20px;
+    color:white;
+display: flex;
+justify-content: center;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.up,
+.up2,
+.up3,
+.up4,
+.up5,
+.up6,
+.up7,
+.up8,
+.upM1,
+.upM2,
+.upM3,
+.upM4,
+.upM5,
+.brown-btnD1,
+.brown-btnD2{
+    background-color:#C2B280;
+    border: #C2B280;
+    border-radius: 7px;
+    padding:20px;
+    color:white;
+display: flex;
+justify-content: center;
+
+}
+
+.cardLogIn{
+    width:50%;
+}
+
+.image-footer{
+width:45%;
+position: relative;
+left:35%;
+
+}
+
+.right-side{
+    position: relative;
+left:-10px;
+
+}
+
+
+#redLine{
+    width:190px;
+    background-color: #d71921;
+    height:2px;
+}
+
+
+
+
+
+/* Media Query */
+
+@media (min-width: 576px) and (max-width: 768px) { 
+    .header
+    {
+        height: 45vh;
+    }
+
+
+    .header-a380,
+    .header-a350
+
+    {
+        background-size: cover;
+    }
+
+    
+
+    }
+    
+    @media (min-width: 500px) and (max-width: 575px){ 
+
+    nav img{
+        width:15%;
+       
+    }
+
+
+    .header-a380,
+    .header-a350,
+    .header-b777
+    {
+        background-size: cover;
+    }
+
+
+    .carousel-item img{
+        width:50%;
+    }
+
+.cardLogIn{
+    width:100% !important;
+}
+
+.image-footer{
+    width:35%;
+    position: relative;
+    left:33%;
+    
+    }
+    
+  
+.brown-btnD2{
+    margin-top:30px;
+}
+
+
+
+
+}
+
+
+
